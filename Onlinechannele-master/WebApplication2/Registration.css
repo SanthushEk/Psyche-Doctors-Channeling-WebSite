@@ -1,0 +1,89 @@
+﻿
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/wallpaperflare.com_wallpaper (5).jpg');
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 420px;
+    height: 550px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    position: absolute;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.Email_lbl, .username_lbl, .password_lbl, .check_box_msg {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.Email_textbox, .Username_textbx, .Password_textbx, .Submit_btn {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Email_textbox, .Username_textbx, .Password_textbx {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: black;
+}
+
+.Submit_btn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 40px;
+    color: #fff;
+    background-color: rgba(255,9,9);
+    cursor: pointer;
+    border-radius: 40px;
+    transition: .3s ease-in-out;
+}
+
+    .Submit_btn:hover {
+        background-color: cadetblue;
+    }
+
+.Login_btn {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+    .Login_btn:hover {
+        text-decoration: underline;
+    }
